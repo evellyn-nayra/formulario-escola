@@ -1,0 +1,66 @@
+body{
+    background-image: url(https://www.escolavirtual.pt/themes/ev/assets/images/Blogue/noticia_19_09_2022_2.jpg); /*Inserindo imagem de fundo no body*/
+    background-repeat: no-repeat; /*pedindo que imagem não se repita e seja uma unica imagem*/
+    background-size: cover; /*definindo o tamanho da imagem, neste caso esta preenchendo todo o body*/
+}
+
+.container{
+    background-color: #34344e9d; /*inserindo uma cor no container (caixa que esta envolvendo o formulario - div)*/
+    width: 380px; /*largura da div*/
+    height: 370px; /*altura da div*/
+    color: white; /*cor das letras da div*/
+    margin: 190px auto; /*primeiroº distancia do topo da pagina até o centro - segundoº distancia da lateral da pagina até o centro*/
+    text-align: center; /*alinhando o texto*/
+    padding: 30px; /*dando um respiro entre as informações da div (um espaçamento)*/
+    font-family: 'Courier New', Courier, monospace; /*familia de fontes utilizada nho formulario*/
+    box-shadow: 7px 14px 25px black; /*sombreado da div, com tres medidas sendo laterais e parte inferior + cor*/
+}
+
+.line{
+    width: 150px; /*largura da linha - hr*/
+    margin-bottom: 50px; /*distancia da linha para o restante do formulario*/
+}
+
+.btn-enviar{
+    background-color: #89a7b1; /*cor do botão logar*/
+    width: 230px; /*largura do botão logar*/
+    height: 25px; /*altura do botão logar*/
+    color: white; /*cor da letra do botão*/
+    font-size: 13px; /*tamanho da letra do botão*/
+    border-radius: 7px; /*arredandando o a caixa de digitação*/
+    
+}
+
+.btn-enviar:hover{
+    background-color: #566981; /*alterando a cor quando o mouse passar em cima do botão*/
+    transition: 0.6s; /*tempo de transição para mudança de cor ao passar o mouse em cima do botão*/
+    cursor: pointer; /*alterando o icone do mouse - tirando a seta e colocando a mãozinha*/
+}
+
+.content{
+    display: flex;
+}
+
+.content button{
+    width: 100px; /*largura do botão cadastrar*/
+    height: 23px; /*altura do botão*/
+    font-size: 10px; /*tamnho da fonte*/
+    color: white; /*cor da fonte*/
+    background-color: #89a7b1; /*cor de fundo do botão*/
+    border-radius: 7px; /*arrendonda caixa de digitação*/
+    margin: 10px; /*distanciando o botão do item acima*/
+}
+
+.content button:hover{
+    background-color: #566981; /*cor após passar o mouse sobre o botõa*/
+    transition: 0.6px; /*tempo até mudar a cor*/
+    cursor: pointer; /*alterando o cursor*/    
+}
+
+.content{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+
