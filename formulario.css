@@ -53,7 +53,7 @@ body{
 
 .content button:hover{
     background-color: #566981; /*cor após passar o mouse sobre o botõa*/
-    transition: 0.6px; /*tempo até mudar a cor*/
+    transition: 0.6s; /*tempo até mudar a cor*/
     cursor: pointer; /*alterando o cursor*/    
 }
 

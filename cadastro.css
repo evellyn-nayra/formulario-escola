@@ -1,0 +1,38 @@
+body{
+    background-image: url(https://www.escolavirtual.pt/themes/ev/assets/images/Blogue/noticia_19_09_2022_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cadastro{
+    background-color: #34344e9d;
+    width: 350px;
+    text-align: center;
+    padding: 30px;
+    color: aliceblue;
+    margin: 190px auto;
+    border-radius: 30px;
+}
+
+.subline{
+    margin-bottom: 45px;
+    width: 300px;
+    height: 0.5px;
+}
+
+.btn-cadastrar > input{
+    background-color: #89a7b1;
+    color: aliceblue;
+    width: 150px;
+    height: 25px;
+    font-style: italic;
+    font-size: 11px;
+    border-radius: 7px;
+}
+
+.btn-cadastrar :hover{
+    background-color: #114740;
+    transition: 0.6s;
+    cursor: pointer;
+}
